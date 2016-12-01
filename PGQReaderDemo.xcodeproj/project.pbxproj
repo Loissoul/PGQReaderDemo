@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B3114851DDC7697009981A1 /* PGQReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3114841DDC7697009981A1 /* PGQReadViewController.swift */; };
+		3BE1F2CD1DD4212C00632F51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F2CC1DD4212C00632F51 /* AppDelegate.swift */; };
+		3BE1F2CF1DD4212C00632F51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F2CE1DD4212C00632F51 /* ViewController.swift */; };
+		3BE1F2D21DD4212C00632F51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE1F2D01DD4212C00632F51 /* Main.storyboard */; };
+		3BE1F2D41DD4212C00632F51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BE1F2D31DD4212C00632F51 /* Assets.xcassets */; };
+		3BE1F2D71DD4212C00632F51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE1F2D51DD4212C00632F51 /* LaunchScreen.storyboard */; };
+		3BE1F2F21DD4226200632F51 /* 求魔.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3BE1F2E71DD4226200632F51 /* 求魔.txt */; };
+		3BE1F2F31DD4226200632F51 /* GQTranViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F2EA1DD4226200632F51 /* GQTranViewController.m */; };
+		3BE1F2F41DD4226200632F51 /* MBProgressHUD+PGQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F2ED1DD4226200632F51 /* MBProgressHUD+PGQ.m */; };
+		3BE1F2F51DD4226200632F51 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3BE1F2EE1DD4226200632F51 /* MBProgressHUD.bundle */; };
+		3BE1F2F61DD4226200632F51 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F2F01DD4226200632F51 /* MBProgressHUD.m */; };
+		3BE1F2FB1DD4251500632F51 /* PGQPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F2FA1DD4251500632F51 /* PGQPageViewController.swift */; };
+		3BE1F2FD1DD426F100632F51 /* PGQTextParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F2FC1DD426F100632F51 /* PGQTextParser.swift */; };
+		3BE1F2FF1DD44E7100632F51 /* PGQReadUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F2FE1DD44E7100632F51 /* PGQReadUtils.swift */; };
+		3BE1F3011DD4508C00632F51 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F3001DD4508C00632F51 /* String+Extension.swift */; };
+		3BE1F3031DD45A3400632F51 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F3021DD45A3400632F51 /* NSObject+Extension.swift */; };
+		3BE1F3091DD45F3000632F51 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F3041DD45F3000632F51 /* UIBarButtonItem+Extension.swift */; };
+		3BE1F30A1DD45F3000632F51 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F3051DD45F3000632F51 /* UIFont+Extension.swift */; };
+		3BE1F30B1DD45F3000632F51 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F3061DD45F3000632F51 /* UIImage+Extension.swift */; };
+		3BE1F30C1DD45F3000632F51 /* UIScrollView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F3071DD45F3000632F51 /* UIScrollView+Extension.swift */; };
+		3BE1F30D1DD45F3000632F51 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F3081DD45F3000632F51 /* UIView+Extension.swift */; };
+		3BE1F3141DD47DB900632F51 /* PGQBaseReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F3121DD47DB900632F51 /* PGQBaseReadViewController.swift */; };
+		3BE1F3151DD47DB900632F51 /* PGQNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F3131DD47DB900632F51 /* PGQNavigationViewController.swift */; };
+		3BE1F3171DD481EA00632F51 /* ReadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F3161DD481EA00632F51 /* ReadManager.swift */; };
+		3BE1F3191DD4879900632F51 /* PGQUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F3181DD4879900632F51 /* PGQUserDefault.swift */; };
+		3BE1F31B1DD55DCD00632F51 /* PGQUIUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F31A1DD55DCD00632F51 /* PGQUIUtils.swift */; };
+		3BE1F31D1DD5640800632F51 /* PGQFuncUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F31C1DD5640800632F51 /* PGQFuncUtils.swift */; };
+		3BE1F31F1DD59C9E00632F51 /* PGQReaderStyleEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F31E1DD59C9E00632F51 /* PGQReaderStyleEnum.swift */; };
+		3BE1F3211DD59F7F00632F51 /* PGQReaderTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F3201DD59F7F00632F51 /* PGQReaderTableView.swift */; };
+		3BE1F3231DD5A7E200632F51 /* PGQBaseTableViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F3221DD5A7E200632F51 /* PGQBaseTableViewConroller.swift */; };
+		3BE1F3251DD5B55300632F51 /* PGQReadChapterListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F3241DD5B55300632F51 /* PGQReadChapterListModel.swift */; };
+		3BE1F3271DD5B76700632F51 /* PGQReadChapterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F3261DD5B76700632F51 /* PGQReadChapterModel.swift */; };
+		3BE1F3291DD5B95C00632F51 /* PGQReaderConfigureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F3281DD5B95C00632F51 /* PGQReaderConfigureManager.swift */; };
+		3BE1F32B1DD5C0B600632F51 /* PGQReadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F32A1DD5C0B600632F51 /* PGQReadModel.swift */; };
+		3BE1F32D1DD5C0C900632F51 /* PGQReadRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F32C1DD5C0C900632F51 /* PGQReadRecord.swift */; };
+		3BE1F32F1DD9A17D00632F51 /* PGQReadTopStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F32E1DD9A17D00632F51 /* PGQReadTopStatusView.swift */; };
+		3BE1F3311DD9A3A400632F51 /* PGQReadBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F3301DD9A3A400632F51 /* PGQReadBottomView.swift */; };
+		3BE1F3331DD9AC8600632F51 /* PGQReadLeftHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F3321DD9AC8600632F51 /* PGQReadLeftHeaderView.swift */; };
+		3BE1F3351DD9AFDC00632F51 /* PGQReadLeftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F3341DD9AFDC00632F51 /* PGQReadLeftView.swift */; };
+		3BE1F3371DDAABBE00632F51 /* PGQReadLeftViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F3361DDAABBE00632F51 /* PGQReadLeftViewCell.swift */; };
+		3BE1F3391DDAB6A700632F51 /* PGQReadLightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F3381DDAB6A700632F51 /* PGQReadLightView.swift */; };
+		3BE1F33B1DDAE50A00632F51 /* PGQReadSettingColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F33A1DDAE50A00632F51 /* PGQReadSettingColorView.swift */; };
+		3BE1F33D1DDAF85200632F51 /* PGQReadSettingCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F33C1DDAF85200632F51 /* PGQReadSettingCustomView.swift */; };
+		3BE1F33F1DDB06A200632F51 /* PGQReadSettingFlipEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F33E1DDB06A200632F51 /* PGQReadSettingFlipEffectView.swift */; };
+		3BE1F3411DDB136100632F51 /* PGQReadSettingFOntSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F3401DDB136100632F51 /* PGQReadSettingFOntSizeView.swift */; };
+		3BE1F3431DDBF6C400632F51 /* PGQReadSettingFontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F3421DDBF6C400632F51 /* PGQReadSettingFontView.swift */; };
+		3BE1F3451DDC026900632F51 /* PGQReadSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F3441DDC026900632F51 /* PGQReadSettingView.swift */; };
+		3BE1F3471DDC061100632F51 /* PGQReadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F3461DDC061100632F51 /* PGQReadView.swift */; };
+		3BE1F3491DDC07FD00632F51 /* PGQReadViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F3481DDC07FD00632F51 /* PGQReadViewCell.swift */; };
+		3BE1F34B1DDC367B00632F51 /* PGQReadBottomStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F34A1DDC367B00632F51 /* PGQReadBottomStatusView.swift */; };
+		3BE1F34D1DDC376000632F51 /* PGQBatteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F34C1DDC376000632F51 /* PGQBatteryView.swift */; };
+		3BE1F34F1DDC40CF00632F51 /* PGQReadSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F34E1DDC40CF00632F51 /* PGQReadSetup.swift */; };
+		3BE1F3511DDC54A000632F51 /* PGQReadUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F3501DDC54A000632F51 /* PGQReadUI.swift */; };
+		3BE1F3531DDC5A4200632F51 /* PGQPageDataConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1F3521DDC5A4200632F51 /* PGQPageDataConfigure.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B3114841DDC7697009981A1 /* PGQReadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQReadViewController.swift; sourceTree = "<group>"; };
+		3BE1F2C91DD4212C00632F51 /* PGQReaderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PGQReaderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE1F2CC1DD4212C00632F51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3BE1F2CE1DD4212C00632F51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3BE1F2D11DD4212C00632F51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BE1F2D31DD4212C00632F51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BE1F2D61DD4212C00632F51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BE1F2D81DD4212C00632F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BE1F2DE1DD4216900632F51 /* PGQReaderDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PGQReaderDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		3BE1F2E71DD4226200632F51 /* 求魔.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "求魔.txt"; sourceTree = "<group>"; };
+		3BE1F2E91DD4226200632F51 /* GQTranViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQTranViewController.h; sourceTree = "<group>"; };
+		3BE1F2EA1DD4226200632F51 /* GQTranViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQTranViewController.m; sourceTree = "<group>"; };
+		3BE1F2EC1DD4226200632F51 /* MBProgressHUD+PGQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+PGQ.h"; sourceTree = "<group>"; };
+		3BE1F2ED1DD4226200632F51 /* MBProgressHUD+PGQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+PGQ.m"; sourceTree = "<group>"; };
+		3BE1F2EE1DD4226200632F51 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		3BE1F2EF1DD4226200632F51 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		3BE1F2F01DD4226200632F51 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		3BE1F2FA1DD4251500632F51 /* PGQPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQPageViewController.swift; sourceTree = "<group>"; };
+		3BE1F2FC1DD426F100632F51 /* PGQTextParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQTextParser.swift; sourceTree = "<group>"; };
+		3BE1F2FE1DD44E7100632F51 /* PGQReadUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQReadUtils.swift; sourceTree = "<group>"; };
+		3BE1F3001DD4508C00632F51 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		3BE1F3021DD45A3400632F51 /* NSObject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		3BE1F3041DD45F3000632F51 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		3BE1F3051DD45F3000632F51 /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		3BE1F3061DD45F3000632F51 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		3BE1F3071DD45F3000632F51 /* UIScrollView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extension.swift"; sourceTree = "<group>"; };
+		3BE1F3081DD45F3000632F51 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		3BE1F3121DD47DB900632F51 /* PGQBaseReadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQBaseReadViewController.swift; sourceTree = "<group>"; };
+		3BE1F3131DD47DB900632F51 /* PGQNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQNavigationViewController.swift; sourceTree = "<group>"; };
+		3BE1F3161DD481EA00632F51 /* ReadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadManager.swift; sourceTree = "<group>"; };
+		3BE1F3181DD4879900632F51 /* PGQUserDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQUserDefault.swift; sourceTree = "<group>"; };
+		3BE1F31A1DD55DCD00632F51 /* PGQUIUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQUIUtils.swift; sourceTree = "<group>"; };
+		3BE1F31C1DD5640800632F51 /* PGQFuncUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQFuncUtils.swift; sourceTree = "<group>"; };
+		3BE1F31E1DD59C9E00632F51 /* PGQReaderStyleEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQReaderStyleEnum.swift; sourceTree = "<group>"; };
+		3BE1F3201DD59F7F00632F51 /* PGQReaderTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQReaderTableView.swift; sourceTree = "<group>"; };
+		3BE1F3221DD5A7E200632F51 /* PGQBaseTableViewConroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQBaseTableViewConroller.swift; sourceTree = "<group>"; };
+		3BE1F3241DD5B55300632F51 /* PGQReadChapterListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQReadChapterListModel.swift; sourceTree = "<group>"; };
+		3BE1F3261DD5B76700632F51 /* PGQReadChapterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQReadChapterModel.swift; sourceTree = "<group>"; };
+		3BE1F3281DD5B95C00632F51 /* PGQReaderConfigureManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQReaderConfigureManager.swift; sourceTree = "<group>"; };
+		3BE1F32A1DD5C0B600632F51 /* PGQReadModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQReadModel.swift; sourceTree = "<group>"; };
+		3BE1F32C1DD5C0C900632F51 /* PGQReadRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQReadRecord.swift; sourceTree = "<group>"; };
+		3BE1F32E1DD9A17D00632F51 /* PGQReadTopStatusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQReadTopStatusView.swift; sourceTree = "<group>"; };
+		3BE1F3301DD9A3A400632F51 /* PGQReadBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQReadBottomView.swift; sourceTree = "<group>"; };
+		3BE1F3321DD9AC8600632F51 /* PGQReadLeftHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQReadLeftHeaderView.swift; sourceTree = "<group>"; };
+		3BE1F3341DD9AFDC00632F51 /* PGQReadLeftView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQReadLeftView.swift; sourceTree = "<group>"; };
+		3BE1F3361DDAABBE00632F51 /* PGQReadLeftViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQReadLeftViewCell.swift; sourceTree = "<group>"; };
+		3BE1F3381DDAB6A700632F51 /* PGQReadLightView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQReadLightView.swift; sourceTree = "<group>"; };
+		3BE1F33A1DDAE50A00632F51 /* PGQReadSettingColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQReadSettingColorView.swift; sourceTree = "<group>"; };
+		3BE1F33C1DDAF85200632F51 /* PGQReadSettingCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQReadSettingCustomView.swift; sourceTree = "<group>"; };
+		3BE1F33E1DDB06A200632F51 /* PGQReadSettingFlipEffectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQReadSettingFlipEffectView.swift; sourceTree = "<group>"; };
+		3BE1F3401DDB136100632F51 /* PGQReadSettingFOntSizeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQReadSettingFOntSizeView.swift; sourceTree = "<group>"; };
+		3BE1F3421DDBF6C400632F51 /* PGQReadSettingFontView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQReadSettingFontView.swift; sourceTree = "<group>"; };
+		3BE1F3441DDC026900632F51 /* PGQReadSettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQReadSettingView.swift; sourceTree = "<group>"; };
+		3BE1F3461DDC061100632F51 /* PGQReadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQReadView.swift; sourceTree = "<group>"; };
+		3BE1F3481DDC07FD00632F51 /* PGQReadViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQReadViewCell.swift; sourceTree = "<group>"; };
+		3BE1F34A1DDC367B00632F51 /* PGQReadBottomStatusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQReadBottomStatusView.swift; sourceTree = "<group>"; };
+		3BE1F34C1DDC376000632F51 /* PGQBatteryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQBatteryView.swift; sourceTree = "<group>"; };
+		3BE1F34E1DDC40CF00632F51 /* PGQReadSetup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQReadSetup.swift; sourceTree = "<group>"; };
+		3BE1F3501DDC54A000632F51 /* PGQReadUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQReadUI.swift; sourceTree = "<group>"; };
+		3BE1F3521DDC5A4200632F51 /* PGQPageDataConfigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGQPageDataConfigure.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BE1F2C61DD4212C00632F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BE1F2C01DD4212C00632F51 = {
+			isa = PBXGroup;
+			children = (
+				3BE1F2CB1DD4212C00632F51 /* PGQReaderDemo */,
+				3BE1F2CA1DD4212C00632F51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BE1F2CA1DD4212C00632F51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BE1F2C91DD4212C00632F51 /* PGQReaderDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BE1F2CB1DD4212C00632F51 /* PGQReaderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3BE1F2E21DD4226200632F51 /* Extension */,
+				3BE1F2E31DD4226200632F51 /* Genernal */,
+				3BE1F2E41DD4226200632F51 /* Reader */,
+				3BE1F2E51DD4226200632F51 /* Resources */,
+				3BE1F2E81DD4226200632F51 /* Vender */,
+				3BE1F2CC1DD4212C00632F51 /* AppDelegate.swift */,
+				3BE1F2CE1DD4212C00632F51 /* ViewController.swift */,
+				3BE1F2D01DD4212C00632F51 /* Main.storyboard */,
+				3BE1F2D31DD4212C00632F51 /* Assets.xcassets */,
+				3BE1F2D51DD4212C00632F51 /* LaunchScreen.storyboard */,
+				3BE1F2D81DD4212C00632F51 /* Info.plist */,
+				3BE1F2DE1DD4216900632F51 /* PGQReaderDemo-Bridging-Header.h */,
+			);
+			path = PGQReaderDemo;
+			sourceTree = "<group>";
+		};
+		3BE1F2E21DD4226200632F51 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3BE1F3041DD45F3000632F51 /* UIBarButtonItem+Extension.swift */,
+				3BE1F3051DD45F3000632F51 /* UIFont+Extension.swift */,
+				3BE1F3061DD45F3000632F51 /* UIImage+Extension.swift */,
+				3BE1F3071DD45F3000632F51 /* UIScrollView+Extension.swift */,
+				3BE1F3081DD45F3000632F51 /* UIView+Extension.swift */,
+				3BE1F3001DD4508C00632F51 /* String+Extension.swift */,
+				3BE1F3021DD45A3400632F51 /* NSObject+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3BE1F2E31DD4226200632F51 /* Genernal */ = {
+			isa = PBXGroup;
+			children = (
+				3BE1F2FE1DD44E7100632F51 /* PGQReadUtils.swift */,
+				3BE1F3161DD481EA00632F51 /* ReadManager.swift */,
+				3BE1F3181DD4879900632F51 /* PGQUserDefault.swift */,
+				3BE1F31A1DD55DCD00632F51 /* PGQUIUtils.swift */,
+				3BE1F31C1DD5640800632F51 /* PGQFuncUtils.swift */,
+				3BE1F31E1DD59C9E00632F51 /* PGQReaderStyleEnum.swift */,
+			);
+			path = Genernal;
+			sourceTree = "<group>";
+		};
+		3BE1F2E41DD4226200632F51 /* Reader */ = {
+			isa = PBXGroup;
+			children = (
+				3BE1F2F71DD424FC00632F51 /* Model */,
+				3BE1F2F81DD424FC00632F51 /* View */,
+				3BE1F2F91DD424FC00632F51 /* ViewController */,
+			);
+			path = Reader;
+			sourceTree = "<group>";
+		};
+		3BE1F2E51DD4226200632F51 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3BE1F2E71DD4226200632F51 /* 求魔.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3BE1F2E81DD4226200632F51 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				3BE1F2E91DD4226200632F51 /* GQTranViewController.h */,
+				3BE1F2EA1DD4226200632F51 /* GQTranViewController.m */,
+				3BE1F2EB1DD4226200632F51 /* MBProgressHUD */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		3BE1F2EB1DD4226200632F51 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				3BE1F2EC1DD4226200632F51 /* MBProgressHUD+PGQ.h */,
+				3BE1F2ED1DD4226200632F51 /* MBProgressHUD+PGQ.m */,
+				3BE1F2EE1DD4226200632F51 /* MBProgressHUD.bundle */,
+				3BE1F2EF1DD4226200632F51 /* MBProgressHUD.h */,
+				3BE1F2F01DD4226200632F51 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		3BE1F2F71DD424FC00632F51 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BE1F2FC1DD426F100632F51 /* PGQTextParser.swift */,
+				3BE1F3281DD5B95C00632F51 /* PGQReaderConfigureManager.swift */,
+				3BE1F3241DD5B55300632F51 /* PGQReadChapterListModel.swift */,
+				3BE1F3261DD5B76700632F51 /* PGQReadChapterModel.swift */,
+				3BE1F32A1DD5C0B600632F51 /* PGQReadModel.swift */,
+				3BE1F32C1DD5C0C900632F51 /* PGQReadRecord.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3BE1F2F81DD424FC00632F51 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3BE1F3201DD59F7F00632F51 /* PGQReaderTableView.swift */,
+				3BE1F32E1DD9A17D00632F51 /* PGQReadTopStatusView.swift */,
+				3BE1F3301DD9A3A400632F51 /* PGQReadBottomView.swift */,
+				3BE1F3321DD9AC8600632F51 /* PGQReadLeftHeaderView.swift */,
+				3BE1F3341DD9AFDC00632F51 /* PGQReadLeftView.swift */,
+				3BE1F3361DDAABBE00632F51 /* PGQReadLeftViewCell.swift */,
+				3BE1F3381DDAB6A700632F51 /* PGQReadLightView.swift */,
+				3BE1F33A1DDAE50A00632F51 /* PGQReadSettingColorView.swift */,
+				3BE1F33C1DDAF85200632F51 /* PGQReadSettingCustomView.swift */,
+				3BE1F33E1DDB06A200632F51 /* PGQReadSettingFlipEffectView.swift */,
+				3BE1F3401DDB136100632F51 /* PGQReadSettingFOntSizeView.swift */,
+				3BE1F3421DDBF6C400632F51 /* PGQReadSettingFontView.swift */,
+				3BE1F3441DDC026900632F51 /* PGQReadSettingView.swift */,
+				3BE1F3461DDC061100632F51 /* PGQReadView.swift */,
+				3BE1F3481DDC07FD00632F51 /* PGQReadViewCell.swift */,
+				3BE1F34A1DDC367B00632F51 /* PGQReadBottomStatusView.swift */,
+				3BE1F34C1DDC376000632F51 /* PGQBatteryView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3BE1F2F91DD424FC00632F51 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3BE1F3121DD47DB900632F51 /* PGQBaseReadViewController.swift */,
+				3BE1F3131DD47DB900632F51 /* PGQNavigationViewController.swift */,
+				3BE1F3221DD5A7E200632F51 /* PGQBaseTableViewConroller.swift */,
+				3B3114841DDC7697009981A1 /* PGQReadViewController.swift */,
+				3BE1F2FA1DD4251500632F51 /* PGQPageViewController.swift */,
+				3BE1F34E1DDC40CF00632F51 /* PGQReadSetup.swift */,
+				3BE1F3501DDC54A000632F51 /* PGQReadUI.swift */,
+				3BE1F3521DDC5A4200632F51 /* PGQPageDataConfigure.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BE1F2C81DD4212C00632F51 /* PGQReaderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BE1F2DB1DD4212C00632F51 /* Build configuration list for PBXNativeTarget "PGQReaderDemo" */;
+			buildPhases = (
+				3BE1F2C51DD4212C00632F51 /* Sources */,
+				3BE1F2C61DD4212C00632F51 /* Frameworks */,
+				3BE1F2C71DD4212C00632F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PGQReaderDemo;
+			productName = PGQReaderDemo;
+			productReference = 3BE1F2C91DD4212C00632F51 /* PGQReaderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BE1F2C11DD4212C00632F51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Lois_pan;
+				TargetAttributes = {
+					3BE1F2C81DD4212C00632F51 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 475L2MZD72;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3BE1F2C41DD4212C00632F51 /* Build configuration list for PBXProject "PGQReaderDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BE1F2C01DD4212C00632F51;
+			productRefGroup = 3BE1F2CA1DD4212C00632F51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BE1F2C81DD4212C00632F51 /* PGQReaderDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BE1F2C71DD4212C00632F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE1F2D71DD4212C00632F51 /* LaunchScreen.storyboard in Resources */,
+				3BE1F2D41DD4212C00632F51 /* Assets.xcassets in Resources */,
+				3BE1F2F51DD4226200632F51 /* MBProgressHUD.bundle in Resources */,
+				3BE1F2F21DD4226200632F51 /* 求魔.txt in Resources */,
+				3BE1F2D21DD4212C00632F51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BE1F2C51DD4212C00632F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE1F30B1DD45F3000632F51 /* UIImage+Extension.swift in Sources */,
+				3BE1F3311DD9A3A400632F51 /* PGQReadBottomView.swift in Sources */,
+				3B3114851DDC7697009981A1 /* PGQReadViewController.swift in Sources */,
+				3BE1F32F1DD9A17D00632F51 /* PGQReadTopStatusView.swift in Sources */,
+				3BE1F2F61DD4226200632F51 /* MBProgressHUD.m in Sources */,
+				3BE1F34B1DDC367B00632F51 /* PGQReadBottomStatusView.swift in Sources */,
+				3BE1F31B1DD55DCD00632F51 /* PGQUIUtils.swift in Sources */,
+				3BE1F3531DDC5A4200632F51 /* PGQPageDataConfigure.swift in Sources */,
+				3BE1F3011DD4508C00632F51 /* String+Extension.swift in Sources */,
+				3BE1F3271DD5B76700632F51 /* PGQReadChapterModel.swift in Sources */,
+				3BE1F30D1DD45F3000632F51 /* UIView+Extension.swift in Sources */,
+				3BE1F2F41DD4226200632F51 /* MBProgressHUD+PGQ.m in Sources */,
+				3BE1F2FF1DD44E7100632F51 /* PGQReadUtils.swift in Sources */,
+				3BE1F3391DDAB6A700632F51 /* PGQReadLightView.swift in Sources */,
+				3BE1F3431DDBF6C400632F51 /* PGQReadSettingFontView.swift in Sources */,
+				3BE1F2FB1DD4251500632F51 /* PGQPageViewController.swift in Sources */,
+				3BE1F3231DD5A7E200632F51 /* PGQBaseTableViewConroller.swift in Sources */,
+				3BE1F31F1DD59C9E00632F51 /* PGQReaderStyleEnum.swift in Sources */,
+				3BE1F33F1DDB06A200632F51 /* PGQReadSettingFlipEffectView.swift in Sources */,
+				3BE1F3091DD45F3000632F51 /* UIBarButtonItem+Extension.swift in Sources */,
+				3BE1F3141DD47DB900632F51 /* PGQBaseReadViewController.swift in Sources */,
+				3BE1F34D1DDC376000632F51 /* PGQBatteryView.swift in Sources */,
+				3BE1F30C1DD45F3000632F51 /* UIScrollView+Extension.swift in Sources */,
+				3BE1F30A1DD45F3000632F51 /* UIFont+Extension.swift in Sources */,
+				3BE1F3031DD45A3400632F51 /* NSObject+Extension.swift in Sources */,
+				3BE1F31D1DD5640800632F51 /* PGQFuncUtils.swift in Sources */,
+				3BE1F34F1DDC40CF00632F51 /* PGQReadSetup.swift in Sources */,
+				3BE1F2F31DD4226200632F51 /* GQTranViewController.m in Sources */,
+				3BE1F33D1DDAF85200632F51 /* PGQReadSettingCustomView.swift in Sources */,
+				3BE1F32B1DD5C0B600632F51 /* PGQReadModel.swift in Sources */,
+				3BE1F3451DDC026900632F51 /* PGQReadSettingView.swift in Sources */,
+				3BE1F2CF1DD4212C00632F51 /* ViewController.swift in Sources */,
+				3BE1F32D1DD5C0C900632F51 /* PGQReadRecord.swift in Sources */,
+				3BE1F3291DD5B95C00632F51 /* PGQReaderConfigureManager.swift in Sources */,
+				3BE1F3371DDAABBE00632F51 /* PGQReadLeftViewCell.swift in Sources */,
+				3BE1F2CD1DD4212C00632F51 /* AppDelegate.swift in Sources */,
+				3BE1F3191DD4879900632F51 /* PGQUserDefault.swift in Sources */,
+				3BE1F3511DDC54A000632F51 /* PGQReadUI.swift in Sources */,
+				3BE1F33B1DDAE50A00632F51 /* PGQReadSettingColorView.swift in Sources */,
+				3BE1F3331DD9AC8600632F51 /* PGQReadLeftHeaderView.swift in Sources */,
+				3BE1F3251DD5B55300632F51 /* PGQReadChapterListModel.swift in Sources */,
+				3BE1F3471DDC061100632F51 /* PGQReadView.swift in Sources */,
+				3BE1F3171DD481EA00632F51 /* ReadManager.swift in Sources */,
+				3BE1F3351DD9AFDC00632F51 /* PGQReadLeftView.swift in Sources */,
+				3BE1F3411DDB136100632F51 /* PGQReadSettingFOntSizeView.swift in Sources */,
+				3BE1F2FD1DD426F100632F51 /* PGQTextParser.swift in Sources */,
+				3BE1F3491DDC07FD00632F51 /* PGQReadViewCell.swift in Sources */,
+				3BE1F3151DD47DB900632F51 /* PGQNavigationViewController.swift in Sources */,
+				3BE1F3211DD59F7F00632F51 /* PGQReaderTableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BE1F2D01DD4212C00632F51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BE1F2D11DD4212C00632F51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BE1F2D51DD4212C00632F51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BE1F2D61DD4212C00632F51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BE1F2D91DD4212C00632F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BE1F2DA1DD4212C00632F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BE1F2DC1DD4212C00632F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 475L2MZD72;
+				INFOPLIST_FILE = PGQReaderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wordoor.PGQReaderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PGQReaderDemo/PGQReaderDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3BE1F2DD1DD4212C00632F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 475L2MZD72;
+				INFOPLIST_FILE = PGQReaderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wordoor.PGQReaderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PGQReaderDemo/PGQReaderDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BE1F2C41DD4212C00632F51 /* Build configuration list for PBXProject "PGQReaderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BE1F2D91DD4212C00632F51 /* Debug */,
+				3BE1F2DA1DD4212C00632F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BE1F2DB1DD4212C00632F51 /* Build configuration list for PBXNativeTarget "PGQReaderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BE1F2DC1DD4212C00632F51 /* Debug */,
+				3BE1F2DD1DD4212C00632F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BE1F2C11DD4212C00632F51 /* Project object */;
+}
